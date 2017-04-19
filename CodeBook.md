@@ -1,9 +1,9 @@
-#Getting the Raw data
+# Getting the Raw data
 
 Raw data is obtained from UCI Machine learning repository. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 
-#Cleaning the data
+# Cleaning the data
 
 Following steps are performed using run_analysis R script for data cleaning:
 
@@ -17,15 +17,15 @@ g) Creates a tidy dataset that consists of the average (mean) value of each vari
 h) The end result is shown in the file Tidy_data.txt.
 
 
-#Tidy_data.txt Details
+# Tidy_data.txt Details
 
-##Below are details of identifiers in file Tidy_data.txt:
+## Below are details of identifiers in file Tidy_data.txt:
 
 a) "activity_id : ID of activity performed
 b) "activity_name" : Name of activity performed
 c) "subject_id" : ID of subject
 
-##Activity Labels: Below are the activity labels: 
+## Activity Labels: Below are the activity labels: 
 
 a) WALKING
 b) WALKING_UPSTAIRS
@@ -34,7 +34,7 @@ d) SITTING
 e) STANDING
 f) LAYING
 
-##Below are the measurement variables :
+## Below are the measurement variables :
 
 tBodyAcc-mean()-X, 
 tBodyAcc-mean()-Y
